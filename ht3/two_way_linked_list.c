@@ -16,6 +16,8 @@ struct two_ways_linked_list {
     struct two_ways_linked_elem *first_elem;
 };
 
+
+
 //Функция добавления элемента в односвязный список
 //Вход: односвязный список + значение новго элемента
 struct two_ways_linked_list append(struct two_ways_linked_list list, int number) {
